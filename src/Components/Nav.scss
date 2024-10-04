@@ -1,0 +1,209 @@
+/* /* 
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    
+    
+}
+
+.Navbar{
+ display: flex;
+justify-content: center;
+margin-top: 2vh;
+margin-bottom: 2vh;
+gap: 40px;
+margin-right: 171vh
+
+
+}
+.Navbar a{
+    text-decoration: none;
+    color: black;
+}
+.imagelog{
+    margin-left: 10vh;
+    
+}
+.search{
+    border-radius: 30px;
+    width: 30vh;
+    height: 4vh;
+    padding-left: 25px;
+    
+}
+
+.search-wrap{
+    position: relative;
+    right: 80vh;
+
+}
+
+.search-icon{
+    position: absolute;
+    left: 8px;
+    margin-top: 9px;
+    right: 3px;
+}
+ #user{
+    font-size: 20px;
+    margin-left: 290px;
+    margin-bottom: 30px;
+ }
+ */
+
+ /* *{
+    margin: 0;
+    padding: 0;
+ }
+
+ .navdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+ }
+ .inputDiv{
+    display: flex;
+    margin-right: 100px;
+ }
+ .container2{
+    display: flex;
+   justify-content: space-evenly;
+   margin-right: 390px;
+
+   
+ }
+ 
+ .Navbar{
+    display: flex;
+    margin-left: 80px;
+    gap: 60px;
+
+ }
+.container2{
+    margin-top: 60px;
+}
+.imagelog{
+    margin-top: -6px;
+}
+ .search{
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+ }
+ .search{
+    position: absolute;
+    
+ }
+ .search-icon{
+    position: relative;
+    padding-left: 20px;
+    padding-top: 8px;
+ }
+
+.user{
+    display: flex;
+    margin-left: 50vh;
+    margin-bottom: 100px;
+}
+ 
+ */ 
+ 
+
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+.navdiv {
+    display: flex;
+    align-items: center;
+}
+
+
+.imagelog {
+    margin-right: 20px;
+}
+
+
+.Navbar {
+    display: flex;
+    gap: 60px;
+}
+
+
+.Navbar a {
+    text-decoration: none;
+    color: #060505;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.Navbar a:hover {
+    color: #075f4b;
+}
+
+
+.inputDiv {
+    display: flex;
+    align-items: center;
+}
+
+
+.search-wrap {
+    position: relative;
+}
+
+
+.search {
+    width: 250px;
+    height: 35px;
+    padding-left: 35px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+
+.user {
+    margin-left: 40px;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+}
+
+
+.user:hover {
+    color: #007bff;
+}
+

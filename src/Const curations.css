@@ -1,0 +1,39 @@
+.curations-container {
+    text-align: center;
+    margin: 50px auto;
+    width: 80%; /* Adjust width as needed */
+  }
+  
+  .curations-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .curations-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+    
+  .curation-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .curation-image img {
+    width: 100px; /* Adjust the size of the circle images */
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .curation-item h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2e2e2e;
+  }
+  

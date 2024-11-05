@@ -29,6 +29,8 @@ function App() {
         <Route path='/Order' element={<Order/>}></Route>
         <Route path='/Pay' element={<Pay/>}></Route>
 
+
+
       </Routes>
     </Router>
 

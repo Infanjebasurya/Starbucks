@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import './Pay.scss';
 
 const LoginModal = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
     <>
-      <button onClick={() => setIsOpen(true)}>Open Login</button>
+      <button onClick={() => setIsOpen(false)}>Open Login</button>
       {isOpen && (
         <div className="modal">
           <div className="modal-content">

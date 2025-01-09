@@ -1272,18 +1272,18 @@ function Order() {
                         <Tab className='tab1'>Ready To Eat</Tab>
 
 
-                        <div>
-                            <Tabs className='tagsss'>
-                                <Tab className='tab2'>Espresso</Tab>
-                                <Tab className='tab2'>Frappuccino*blended Beverages</Tab>
-                                <Tab className='tab2'>Other Breverages</Tab>
-                                <Tab className='tab2'>Brewwd Coffee</Tab>
-                                <Tab className='tab2'>tea</Tab>
-                                <Tab className='tab2'>Cold Coffee</Tab>
+                        {/* <div> */}
+                            {/* <Tabs className='tagsss'> */}
+                                {/* <Tab className='tab2'>Espresso</Tab> */}
+                                {/* <Tab className='tab2'>Frappuccino*blended Beverages</Tab> */}
+                                {/* <Tab className='tab2'>Other Breverages</Tab> */}
+                                {/* <Tab className='tab2'>Brewwd Coffee</Tab> */}
+                                {/* <Tab className='tab2'>tea</Tab> */}
+                                {/* <Tab className='tab2'>Cold Coffee</Tab> */}
 
-                                <TabPanel><h1>fghjk</h1></TabPanel>
-                            </Tabs>
-                        </div>
+                                {/* <TabPanel><h1>fghjk</h1></TabPanel> */}
+                            {/* </Tabs> */}
+                        {/* </div> */}
                     </TabList>
 
 

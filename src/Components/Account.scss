@@ -10,12 +10,15 @@
 .profilr-btn{
     background: transparent;
     border:none ;
+    color: black;
     cursor: pointer;
 }
 .Account-btn{
     background: transparent;
     border: none;
+    color: black;
     cursor: pointer;
+    margin-left: -35px;
 }
 .Account{
     background-color: #faf6ee;
@@ -49,4 +52,79 @@
     margin-left: 90%;
     cursor: pointer;
     color: black;
+}
+
+@media (max-width: 600px) {
+    .Pro-Account-Btn {
+        margin-left: 20px;
+    }
+    .Account {
+        height: auto;
+    }
+    .Wel {
+        font-size: 16px;
+        margin-top: 200px;
+    }
+    .Sign-up {
+        width: 140px;
+        height: 34px;
+    }
+    .Settings {
+        font-size: 20px;
+        margin-left: 80%;
+    }
+}
+
+/* Small devices (600px to 768px) */
+@media (min-width: 600px) and (max-width: 768px) {
+    .Pro-Account-Btn {
+        margin-left: 50px;
+    }
+    .Wel {
+        font-size: 18px;
+    }
+    .Sign-up {
+        width: 150px;
+        height: 36px;
+    }
+    .Settings {
+        font-size: 22px;
+        margin-left: 85%;
+    }
+}
+
+/* Medium devices (tablets, 768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .Pro-Account-Btn {
+        margin-left: 100px;
+    }
+    .Wel {
+        font-size: 19px;
+    }
+    .Sign-up {
+        width: 160px;
+        height: 37px;
+    }
+    .Settings {
+        font-size: 24px;
+        margin-left: 88%;
+    }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+    .Pro-Account-Btn {
+        margin-left: 150px;
+    }
+    .Wel {
+        font-size: 20px;
+    }
+    .Sign-up {
+        width: 170px;
+        height: 38px;
+    }
+    .Settings {
+        font-size: 25px;
+        margin-left: 90%;
+    }
 }

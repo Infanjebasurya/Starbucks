@@ -1252,10 +1252,10 @@ function Order() {
                 <Link to='/'>
                     <button className='homebtns'>Home</button>
                 </Link>
-                <button className='orderbtn'>--Order</button>
+                <button className='orderbtn'>-- Order</button>
             </div>
 
-            <div className='back'>
+            <div className='back1'>
 
             </div>
 

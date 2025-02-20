@@ -71,3 +71,37 @@
     text-decoration: underline;
   }
   
+
+  /* Responsive Media Queries */
+
+@media only screen and (max-width: 600px) {
+  .login-container {
+      max-width: 90%;
+      margin: 50px auto;
+      padding: 15px;
+  }
+  h2 {
+      font-size: 20px;
+  }
+  .input-group input {
+      padding: 8px;
+  }
+  .login-button {
+      padding: 8px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .login-container {
+      max-width: 70%;
+  }
+  h2 {
+      font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .login-container {
+      max-width: 400px;
+  }
+}

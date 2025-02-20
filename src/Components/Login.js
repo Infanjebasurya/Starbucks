@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import './Login.scss';
+import React, { useState } from "react";
+import "./Login.scss";
 
 const Login = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleLogin = () => {
     // Handle login logic
-    console.log('Logging in with:', username, password);
+    console.log("Logging in with:", username, password);
   };
 
   return (
@@ -24,6 +24,7 @@ const Login = () => {
             required
           />
         </div>
+
         <div className="input-group">
           <label>PASSWORD</label>
           <input

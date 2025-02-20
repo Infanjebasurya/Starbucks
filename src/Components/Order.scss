@@ -4,10 +4,21 @@
 }
 .orderbtn{
     background: transparent;
+    color: black;
     border: none;
+    margin-left: -35px;
+    cursor: pointer;
 
 }
-.back{
+
+.homebtns{
+    background: transparent;
+    color: black;
+    border: none;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.back1{
     background-color: #1E3932;
     height: 160px;
 }
@@ -164,4 +175,102 @@
     width: 50px;
     background-color:white;
     margin-bottom: 50px;
+}
+
+
+
+
+/* Responsive Media Queries */
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .orderbtn, .homebtns {
+        margin-left: 0;
+    }
+    .back1 {
+        height: 120px;
+    }
+    .eveyyone, .background1 {
+        margin-left: 20px;
+    }
+    .tabs {
+        padding-left: 20px;
+        gap: 20px;
+        height: 50px;
+        flex-wrap: wrap;
+    }
+    .bckground {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .spans {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tagsss {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+/* Medium devices (tablets, 600px to 1024px) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .orderbtn, .homebtns {
+        margin-left: 10px;
+    }
+    .back1 {
+        height: 140px;
+    }
+    .eveyyone, .background1 {
+        margin-left: 50px;
+    }
+    .tabs {
+        padding-left: 50px;
+        gap: 30px;
+    }
+    .bckground {
+        width: 90%;
+    }
+    .spans h3 {
+        margin-right: 50px;
+    }
+    .adds {
+        margin-left: 150px;
+    }
+    .tagsss {
+        gap: 30px;
+        margin-left: -300px;
+    }
+}
+
+/* Large devices (desktops, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+    .orderbtn, .homebtns {
+        margin-left: 40px;
+    }
+    .back1 {
+        height: 160px;
+    }
+    .eveyyone, .background1 {
+        margin-left: 100px;
+    }
+    .tabs {
+        padding-left: 100px;
+        gap: 50px;
+    }
+    .bckground {
+        width: 400px;
+    }
+    .spans h3 {
+        margin-right: 110px;
+    }
+    .adds {
+        margin-left: 250px;
+    }
+    .tagsss {
+        gap: 50px;
+        margin-left: -650px;
+    }
 }

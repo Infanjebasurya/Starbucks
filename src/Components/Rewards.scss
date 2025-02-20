@@ -84,3 +84,53 @@
 
     }
 }
+
+
+
+/* Responsive Media Queries */
+
+@media only screen and (max-width: 1024px) {
+    .rewad1 {
+        margin-right: 500px;
+    }
+    .btn-container {
+        margin-right: 300px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home-r-button {
+        margin-left: 50px;
+    }
+    .rewads {
+        height: auto;
+        padding: 20px;
+    }
+    .rewad1, .btn-container {
+        margin-right: 100px;
+        text-align: center;
+    }
+    .how {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .home-r-button {
+        margin-left: 20px;
+    }
+    .btn-container {
+        margin-right: 20px;
+    }
+    .how {
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    .star1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .star1 img {
+        margin-left: 0;
+    }
+}

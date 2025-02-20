@@ -9,6 +9,8 @@ import Login from './Components/Login';
 import Anytime from './Components/Anytime';
 import Order from './Components/Order';
 import Pay from './Components/Pay';
+import Store from './Components/Store';
+
 
 
 
@@ -28,6 +30,7 @@ function App() {
         <Route path='/Anytime' element={<Anytime/>}></Route>
         <Route path='/Order' element={<Order/>}></Route>
         <Route path='/Pay' element={<Pay/>}></Route>
+        <Route path='/Store' element={<Store/>}></Route>
 
 
 

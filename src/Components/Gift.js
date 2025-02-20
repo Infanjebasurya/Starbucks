@@ -25,6 +25,9 @@ import just12 from "../Components/Assets/Image/just12.png"
 import just13 from "../Components/Assets/Image/just13.png"
 import just14 from "../Components/Assets/Image/just14.webp"
 
+import { FaAnglesRight } from "react-icons/fa6";
+
+
 
 import logo from "../Components/Assets/Image/logo.png"
 import appstore from "../Components/Assets/Image/appstoreiOS.png"
@@ -35,12 +38,15 @@ import 'react-tabs/style/react-tabs.css';
 
 function Contact() {
     return (
-        <div>
+        <div className='containers'>
             <div className='hbuttons'>
                 <Link to='/'>
                     <button className='homebtns'>Home</button>
                 </Link>
-                <button className='cards-btn'>--Gift Cards</button>
+                <button className='cards-btn'><FaAnglesRight className='fangle' /> Gift Cards</button>
+                
+
+                
             </div>
             <div className='collection'>
                 <div className='collection1'>
@@ -53,7 +59,8 @@ function Contact() {
                     <h5 className='h5btn'>Starting From</h5>
                     <h2>₹500</h2>
                     <div className='collection2'>
-                        <button className='nowbtn'>Order Now</button>
+                      <Link to='/order' >  <button className='nowbtn'>Order Now</button>
+                      </Link>
 
                     </div>
                 </div>

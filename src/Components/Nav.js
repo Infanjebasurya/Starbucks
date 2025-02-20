@@ -89,7 +89,7 @@ const Nav = () => {
           </nav>
         </div>
 
-        <div className='inputDiv'>
+          <div className='inputDiv'>
           <div className='search-wrap'>
             <input className='search' type='text' placeholder='Looking for something specific?' />
             <IoSearch className='search-icon' />

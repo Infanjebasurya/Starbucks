@@ -240,3 +240,42 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+
+
+
+/* Responsive Media Queries */
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .modal-content {
+      width: 90%;
+      padding: 15px;
+  }
+  h2 {
+      font-size: 20px;
+  }
+  button {
+      width: 100%;
+  }
+}
+
+/* Medium devices (tablets, 600px to 1024px) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .modal-content {
+      width: 80%;
+  }
+  h2 {
+      font-size: 22px;
+  }
+  button {
+      width: auto;
+  }
+}
+
+/* Large devices (desktops, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+  .modal-content {
+      width: 400px;
+  }
+}
